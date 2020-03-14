@@ -4,11 +4,45 @@
     let btnTarefa = document.querySelector('.btn-tarefa');
     let tarefas = document.querySelector('.tarefas');
     let data = document.querySelector('#data');
+    let day = document.querySelector('#day');
      
     function mostrarData() {
         
         let dataBrasil = new Date();
+        let diaBrasil = new Date();
         data.innerHTML = dataBrasil.toLocaleDateString('pt-BR');
+
+        switch(diaBrasil.getDay()) {
+
+            case 0:
+                day.innerHTML = 'DOMINGO';
+                break;
+            
+            case 1:
+                day.innerHTML = 'SEGUNDA';
+                break;
+                
+            case 2:
+                day.innerHTML = 'TERÇA';
+                break;
+                    
+            case 3:
+                day.innerHTML = 'QUARTA';
+                break;
+
+            case 4:
+                day.innerHTML = 'QUINTA';
+                break;
+
+            case 5:
+                day.innerHTML = 'SEXTA';
+                break;
+
+            case 6:
+                day.innerHTML = 'SÁBADO';
+                break;
+
+        }
 
     }
    

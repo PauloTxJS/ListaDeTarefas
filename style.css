@@ -3,40 +3,48 @@ body {
     background-color:rgb(95, 159, 201)
 
 }
+
 .container {
 
     margin:auto;
-    margin-top:15%;
+    margin-top:2%;
     background-color:#fff;
-    width:30%;
+    width:50%;
     text-align:center;
     padding:5px;
     font-size:25px;
     border-radius:10px;
+
 }
 
-.relogio {
+input {
 
-    font-size:150%;
+    width:60%;
 
 }
 
 button {
 
-    width:25%;
-    margin:3%;
-    border-radius:3px;  
+    width:20%;
+    height:30px;
+    margin:1%;
+      
+}
+
+.btn-tarefa {
+
+    color:rgb(95, 159, 201);
 
 }
 
-.iniciado {
+li {
 
-    color:rgb(27, 24, 219);
+    font-size: 50%;
 
 }
 
-.pausado {
+h1 {
 
-    color:rgb(233, 78, 73);
+    margin-bottom:0px;
 
 }
